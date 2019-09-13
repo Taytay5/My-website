@@ -7,30 +7,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Its Me</title>
 </head>
-<!-- <picture>
-  <source media>="(min-width: )" srcset=" "
-  <source media>="(min-width: )" srcset=" "
-</picture>
-<picture>
-  <source media>="(min-width: )" srcset=" "
-  <source media>="(min-width: )" srcset=" "
-  <img source="" alt="Pictures of me" style="">
-</picture> -->
   <body>
     <nav>
       <ul>
-        <li><a href="#">link 1 </a></li>
+        <li><a href="#">link 1</a></li>
         <li><a href="#"> Link 2</a></li>
+        <li><a href="#"> Link 3</a></li>
+        <li><a href="#"> Link 4</a></li>
       </ul>
     </nav>
     <main>
       <section>
-        <h2>Heading for section</h2>
+        <h2>Pictures of me as a baby and as a freshman.</h2>
         <img src="images/Taylor.jpg" alt="Picture of Me as a freshman">
         <img src="images/Baby Taylor.jpg" alt="Picture of me as a baby">
 
       </section>
     </main>
+
 
   </body>
 </html>
