@@ -32,3 +32,6 @@ li a {
 li a:hover {
   background-color: grey;
 }
+h2 {
+  color: grey;
+}
