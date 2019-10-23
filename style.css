@@ -16,21 +16,22 @@ h1 {
 }
 
 h2 {
-  color: #808080;
+  color:#808080;
   font-family: var(--headingText);
   padding-left: 60px;
-}
-
-p {
-  font-family: var(--paragraphText);
-  color: #000000;
-  font-size: 22px;
 }
 
 h3 {
   color: #474747;
   font-family: var(--headingText);
   text-shadow: 5px 5px 2px #C0C0C0;
+  padding-left: 20px;
+}
+
+p {
+  font-family: var(--paragraphText);
+  color: #000000;
+  font-size: 22px;
 }
 
 img {
@@ -118,8 +119,8 @@ aside {
 
 footer {
   grid-area: footer;
-  background: #008080;
-  color: #000000;
+  background: #000000;
+  color: #FFFFFF;
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -146,4 +147,8 @@ ul la {
   color: #000000;
   font-famliy: var(--paragraphText);
   padding: 30px;
+}
+
+.p {
+  color: #FFFFFF;
 }
