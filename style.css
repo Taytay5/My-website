@@ -1,3 +1,18 @@
+/*
+Changes that still need to be made
+- change link color in the footers
+- fix navigation on facts page
+- link facts on facts Page
+
+check with validation
+*/
+
+
+
+
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Dosis|Fjalla+One|Open+Sans+Condensed:300&display=swap');
 
 
@@ -151,4 +166,8 @@ ul la {
 
 .p {
   color: #FFFFFF;
+}
+
+.li {
+  float:none;
 }
