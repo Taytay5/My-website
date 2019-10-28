@@ -7,12 +7,6 @@ Changes that still need to be made
 check with validation
 */
 
-
-
-
-
-
-
 @import url('https://fonts.googleapis.com/css?family=Dosis|Fjalla+One|Open+Sans+Condensed:300&display=swap');
 
 
@@ -43,10 +37,17 @@ h3 {
   padding-left: 20px;
 }
 
+h4 {
+  color: #008080;
+  font-family: var(--navigationText);
+  padding-left: 15px;
+}
+
 p {
   font-family: var(--paragraphText);
   color: #000000;
   font-size: 22px;
+  padding-left: 20px;
 }
 
 img {
@@ -128,7 +129,6 @@ main {
 
 aside {
   grid-area: aside;
-  color: teal;
   background: #008080;
 }
 
@@ -162,12 +162,4 @@ ul la {
   color: #000000;
   font-famliy: var(--paragraphText);
   padding: 30px;
-}
-
-.p {
-  color: #FFFFFF;
-}
-
-.li {
-  float:none;
 }
