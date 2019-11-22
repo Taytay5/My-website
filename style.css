@@ -73,7 +73,6 @@ li a {
   text-decoration: overline;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #808080;
 }
@@ -164,9 +163,6 @@ ul la {
   padding: 30px;
 }
 
-.flex-container {
-  display: flex;
-  height: auto;
-  flex-wrap: wrap;
-  align-content: space-around;
+.ahref {
+  color: #008080;
 }
