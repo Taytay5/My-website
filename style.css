@@ -121,13 +121,10 @@ main {
 aside {
   grid-area: aside;
   background: #008080;
-}
-
-.aside {
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 10% 10% 10% 10%;
-  grid-gap: 2px;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+}
 
 }
 
