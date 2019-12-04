@@ -99,10 +99,17 @@ color: #000000;
 td {
   height: 20px;
   vertical-align: center;
-  padding left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-tr:nth-child(even) {background-color: #C0C0C0}
+tr:nth-child(even) {
+  background-color: #C0C0C0
+}
+
+.section1 {
+
+}
 
 caption {
   color: #000000;
@@ -121,11 +128,13 @@ main {
 aside {
   grid-area: aside;
   background: #008080;
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: auto;
+  position: absolute;
 }
 
+.figure {
+  position: absolute;
+  top: 250px;
+  left: 250px;
 }
 
 footer {
