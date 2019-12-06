@@ -8,7 +8,7 @@
 }
 
 
-
+/* start of heading css */
 h1 {
   color: #008080;
   font-family: var(--headingText);
@@ -33,15 +33,19 @@ h4 {
   font-family: var(--navigationText);
   padding-left: 15px;
 }
+/* end of heading css */
 
+/* start of paragraph css */
 p {
   font-family: var(--paragraphText);
   color: #000000;
   font-size: 22px;
   padding-left: 20px;
 }
+/* end of paragraph css */
 
 
+/* start of image css */
 img {
   width: 45%;
   height: 800px;
@@ -52,7 +56,10 @@ img {
   margin-left: 400px;
   margin-right: 300px;
 }
+/* end of image css */
 
+
+/* start of navigation css */
 ul {
   list-style-type: none;
   margin: 0;
@@ -81,7 +88,10 @@ li a:hover {
   background-color: #000000;
   color: #FFFFFF;
 }
+/* end of naavigation css */
 
+
+/* start of table css */
 table, th, td {
   border: 1px solid black;
 }
@@ -106,10 +116,8 @@ td {
 tr:nth-child(even) {
   background-color: #C0C0C0
 }
+/* end of table css */
 
-.section1 {
-
-}
 
 caption {
   color: #000000;
@@ -137,6 +145,7 @@ aside {
   left: 250px;
 }
 
+/* start of footer css */
 footer {
   grid-area: footer;
   background: #000000;
@@ -144,6 +153,7 @@ footer {
   padding-top: 25px;
   padding-bottom: 25px;
 }
+/* end of footer css */
 
 section {
   grid-area: section;
@@ -154,6 +164,7 @@ article {
   font-family: var(--paragraphText)
 }
 
+/* start of image caption css */
 figcaption {
   font-family: var(--navigationText);
   color: #000000;
@@ -161,6 +172,7 @@ figcaption {
   padding-bottom: 20px;
   padding-left: 700px;
 }
+/* end of image css */
 
 ul la {
   background: #808080;
@@ -169,6 +181,8 @@ ul la {
   padding: 30px;
 }
 
+/* start of footer link css */
 .ahref {
   color: #008080;
 }
+/* end of footer link css */
