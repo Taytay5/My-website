@@ -119,11 +119,14 @@ tr:nth-child(even) {
 /* end of table css */
 
 
+/* start of caption css */
 caption {
   color: #000000;
   font-family: cursive;
   height: 30px;
 }
+/* end of caption css */
+
 
 header {
   grid-area: header;
@@ -133,17 +136,14 @@ main {
   grid-area: main;
 }
 
+/* start of aside css */
 aside {
   grid-area: aside;
   background: #008080;
   position: absolute;
 }
+/* end of aside css */
 
-.figure {
-  position: absolute;
-  top: 250px;
-  left: 250px;
-}
 
 /* start of footer css */
 footer {
