@@ -35,12 +35,20 @@ h4 {
 }
 /* end of heading css */
 
+
 /* start of paragraph css */
 p {
   font-family: var(--paragraphText);
   color: #000000;
   font-size: 22px;
   padding-left: 20px;
+}
+
+.p {
+    font-family: var(--headingText);
+    color: #C0C0C0;
+    font-size: 20px;
+    padding-left: 20px;
 }
 /* end of paragraph css */
 
@@ -60,7 +68,9 @@ img {
 
 
 /* start of navigation css */
-ul {
+nav ul {
+  display: flex;
+  justify-content: space-between;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -68,19 +78,19 @@ ul {
   background-color: #C0C0C0;
 }
 
-li {
-  float: left;
+nav li {
+
 }
 
-li a {
+nav li a {
   display: block;
   color: #000000;
   text-align: center;
-  padding: 30px 152.3px;
+  padding: 30px;
   text-decoration: overline;
 }
 
-li a:hover {
+nav li a:hover:not(.active) {
   background-color: #808080;
 }
 
@@ -128,41 +138,33 @@ caption {
 /* end of caption css */
 
 
-header {
-  grid-area: header;
-}
-
-main {
-  grid-area: main;
-}
-
 /* start of aside css */
 aside {
   grid-area: aside;
   background: #008080;
-  position: absolute;
 }
 /* end of aside css */
 
 
 /* start of footer css */
 footer {
-  grid-area: footer;
   background: #000000;
   color: #FFFFFF;
   padding-top: 25px;
   padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 /* end of footer css */
 
-section {
-  grid-area: section;
-}
 
+/* start of article css */
 article {
   grid-area: article;
   font-family: var(--paragraphText)
 }
+/* end of article css /*
+
 
 /* start of image caption css */
 figcaption {
@@ -172,17 +174,69 @@ figcaption {
   padding-bottom: 20px;
   padding-left: 700px;
 }
+
 /* end of image css */
 
-ul la {
+/* ul la {
   background: #808080;
   color: #000000;
   font-famliy: var(--paragraphText);
   padding: 30px;
-}
+} */
 
 /* start of footer link css */
 .ahref {
   color: #008080;
 }
 /* end of footer link css */
+
+
+/* start of media css */
+@media screen and (max-width: 600px) {
+nav ul{
+  flex-direction: column;
+  }
+
+img {
+  width: 80%;
+  height: auto;
+  margin-right: 5px;
+  margin-left: 0px;
+}
+
+figcaption {
+  padding-left: 80px;
+}
+
+footer {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  width: 50%;
+}
+
+th {
+height: 50px;
+background-color: #008080;
+color: #000000;
+}
+
+td {
+  height: 20px;
+  vertical-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #C0C0C0
+}
+
+}
+/* end of media css */
